@@ -1,0 +1,95 @@
+<div class="page page-makanan">
+  <!-- Top Navbar -->
+  <div class="navbar">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner">
+      <div class="left">
+          <a class="link back">
+              <i class="icon icon-back color-black"></i>
+          </a>
+      </div>
+      <div class="title" >Menu</div>
+      <div class="right">
+        <a href="#" class="link icon-only panel-open" data-panel= "#panel-nested">
+          <i class="icon f7-icons if-not-md color-black">menu</i>
+          <i class="icon material-icons md-only color-black">menu</i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Menu Panel -->
+  <div class="panel panel-right panel-cover panel-init" id="panel-nested" data-container-el="#panel-page">
+    <div class="page">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner">
+          <div class="title color-white">Kategori</div>
+          <div class="right">
+            <a class="panel-close">
+              <i class="icon f7-icons color-black">arrow_right_circle</i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="page-content">
+        <div class="list links-list">
+          <ul>
+            <li>
+              <a href="/makanan/" class="panel-close">Makanan</a>
+            </li>
+            <li>
+              <a href="/minuman/" class="panel-close">Minuman</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scrollable page content -->
+  <div class="page-content hide-navbar-on-scroll">
+
+    <div class="block block-strong-ios block-outline-ios">
+        <div class="breadcrumbs">
+          <div class="breadcrumbs-item">
+            <a class="link" href="/home/">
+              Beranda
+            </a>
+          </div>
+          <div class="breadcrumbs-separator"></div>
+          <div class="breadcrumbs-item breadcrumbs-item-active">
+            <a>
+              Menu
+            </a>
+          </div>
+          <div class="breadcrumbs-separator"></div>
+        </div>
+      <br>
+    </div>
+
+    <div class="jumbotron">
+      <div class="card-content">
+        <div class="card-content-inner" style="background-image: url('img/resto.jpg') ; background-size: cover;background-position: center;height: 300px">
+          <div class="card-header text-color-black display-block">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-title"><b>Menu Makanan</b></div>
+    <div id="viewMakanan" style="display: grid;grid-template-columns: 1fr 1fr;"></div>
+    <div class="button-round button-container">
+      <a href="/makanan/" class="button">More...</a>
+    </div>
+    
+    <br>
+    
+    <div class="block-title"><b>Menu Minuman</b></div>
+    <div id="viewMinuman" style="display: grid;grid-template-columns: 1fr 1fr;"></div>
+    <div class="button-round button-container">
+      <a href="/minuman/" class="button">More...</a>
+    </div>
+
+  </div>
+</div>
+

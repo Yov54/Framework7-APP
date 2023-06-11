@@ -1,0 +1,54 @@
+.button-container {
+    display: flex;
+    justify-content: center; /* Mengatur penempatan horizontal di tengah */
+    align-items: center; /* Mengatur penempatan vertikal di tengah */
+    position: relative;
+    margin-bottom:10px;
+  }
+
+  .jumbotron {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+  }
+  
+  .jumbotron .card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jumbotron .card-content-inner{
+    text-align: center;
+  }
+
+  .jumbotron .card-content-inner .menu{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .block-title {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .menu-card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+
+  .card-content-inner img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+    height: 150px;
+  }
+
+  .card-cover {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+
+  .popup .page-content{
+    padding: 50px;
+  }

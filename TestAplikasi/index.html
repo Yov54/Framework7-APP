@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3" />
+    <!-- Your app title -->
+    <title>Baba Resto</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="core/framework7-bundle.css" />
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+              <div class="title">BABA RESTO</div>   
+            </div>
+          </div>
+
+          <!-- FAB Backdrop -->
+          <div class="fab-backdrop"></div>
+          <div class="fab fab-right-bottom color-orange">
+            <a href="#">
+              <i class="icon f7-icons if-not-md">ellipsis</i>
+              <i class="icon f7-icons if-not-md">xmark</i>
+              <i class="icon material-icons md-only">add</i>
+              <i class="icon material-icons md-only">close</i>
+            </a>
+            <div class="fab-buttons fab-buttons-top">
+              <a id="contact" class="fab-label-button" href="/loginAdmin/"><span class="fab-label">Admin Page</span>
+                <i class="icon f7-icons if-not-md">person_circle</i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Scrollable page content -->
+          <div class="page-content hide-navbar-on-scroll">
+
+            <div class="jumbotron">
+              <div class="card-content">
+                <div class="card-content-inner" style="background-image: url('img/resto.jpg') ; background-size: cover;background-position: center;height: 300px; margin-top: 30px;
+                position: relative;">
+                  <div class="card-header text-color-black display-block">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="block-title display-block"><b>HI! Tap Below To Get Food & Drink </b></div>
+
+            <div class="button-round button-container">
+              <a href="/menu/" class="button">Today's Menu!</a>
+            </div> 
+
+            <div class="block-title-large"><b>Promo Hari Ini!</b></div>
+            <div id="viewPromo"></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="core/framework7-bundle.js"></script>
+    <!-- Path to your app js-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!--Menu Data-->
+<div class="page page-add-minuman">
+  <!-- Top Navbar -->
+  <div class="navbar">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner">
+      <div class="left">
+          <a class="link back">
+              <i class="icon icon-back color-black"></i>
+          </a>
+      </div>
+      <div class="title" >Add Menu Minuman</div>
+    </div>
+  </div>
+
+  <!-- Scrollable page content -->
+  <div class="page-content hide-navbar-on-scroll">
+    <form div class="list inset" id="my-form" action="#" method="POST" enctype="multipart/form-data">
+      <ul>
+        <li class="item-content item-input">
+          <div class="item-inner">
+              <div class="item-title item-label">Nama</div>
+                <div class="item-input-wrap">
+                  <input id="nama-minuman" type="text" placeholder="Nama Minuman" required validate />
+                    <span class="input-clear-button"></span>
+                </div>
+          </div>
+        </li>
+        <li class="item-content item-input">
+          <div class="item-inner">
+              <div class="item-title item-label">Deskripsi</div>
+                <div class="item-input-wrap">
+                  <input id="desk-minuman" type="text" placeholder="Deskripsi Minuman" required validate />
+                    <span class="input-clear-button"></span>
+                </div>
+          </div>
+        </li>
+        <li class="item-content item-input">
+          <div class="item-inner">
+              <div class="item-title item-label">Harga</div>
+                <div class="item-input-wrap">
+                  <input id="harga-minuman" type="text" placeholder="Harga Minuman" required validate />
+                    <span class="input-clear-button"></span>
+                </div>
+          </div>
+        </li>
+        <li class="item-content item-input">
+          <div class="item-inner">
+              <div class="item-title item-label">Foto</div>
+                <div class="item-input-wrap">
+                  <input id="foto-minuman" type="file"  required validate/>
+                    <span class="input-clear-button"></span>
+                </div>
+          </div>
+        </li>
+        <br><br>
+      </ul>
+    </form>
+    <div class="col">
+      <a class="button button-fill button-round button-raised color-brown convert-form-to-data" href="#" id="saveMinuman">SAVE</a>
+    </div>
+  </div>
+</div>
