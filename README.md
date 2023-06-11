@@ -1,1 +1,2 @@
 # Framework7-APP
+This project serves as a part of my coursework in the Mobile Application Programming course. It involves developing and implementing various functionalities, including routing and database management, to create a robust and efficient mobile application. By applying my knowledge and skills in mobile app development, I aim to demonstrate proficiency in designing and implementing practical solutions that meet the requirements of this academic endeavor.
